@@ -48,3 +48,20 @@
     height: 50px;
 
 }
+
+@media (max-width: 600px) {
+    .board {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes {
+        width: 100px;
+        height: 100px;
+    }
+
+    .boxes img {
+        margin: 20px;
+    }
+}
